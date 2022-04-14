@@ -1,0 +1,38 @@
+.fast__content-wrapper{
+    display: flex;
+    gap: 155px;
+    padding-top: 122px;
+    padding-bottom: 130px;
+    @include media-tablet{
+        gap: 5px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        }
+}
+
+.fast__title{
+   @include title-main;
+   color: var(--color-main); 
+   @include media-tablet{
+    font-size: 3rem;
+}
+}
+
+.fast__text{
+    @include sections-text;
+    color: var(--color-text);
+    margin-bottom: 20px;
+    @include media-tablet{
+        font-size: 1.4rem;
+    }
+}
+
+.fast__image{
+    @include media-tablet{
+        max-width: 40%;
+        object-fit: contain;
+    }
+    @include media-phone{
+        display: none;
+    }
+}

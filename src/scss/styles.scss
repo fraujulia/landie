@@ -1,3 +1,27 @@
-body {
-  background-color: red;
+@import "reset.scss";
+@import "general.scss";
+@import "mixins.scss";
+@import "sections/hero.scss";
+@import "sections/girls.scss";
+@import "sections/light.scss";
+@import "sections/fast.scss";
+@import "sections/powerful.scss";
+@import "sections/price.scss";
+@import "sections/footer.scss";
+
+
+
+:root{
+  --color-main:#091133;
+  --color-text:#6F7CB2;
+  --color-logo:#37447E;
+  --color-buttons:#111B47;
+  --color-secondary:#5D6970;
+  --color-buttons-text:#FFFFFF;
+  --color-hero:#505F98;
+  --color-price:#222F65;
+  --color-light-bg:#E7ECFF;
+  --color-copyright:#939EA4;
+  --color-footer-nav: #929ECC;
+  
 }

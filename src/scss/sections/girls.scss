@@ -1,0 +1,62 @@
+.girl__content-box{
+    display: flex;
+    gap: 16px;
+    padding-top: 160px;
+    padding-bottom: 108px;
+    @include media-tablet{
+        display: block;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+}
+
+.girl__icons-box{
+    display: flex;
+    gap: 30px;
+}
+
+.girl__title{
+    @include sub-title-main;
+    margin-bottom: 16px;
+    @include media-tablet{
+        font-size: 3rem;
+    }
+}
+
+.girl__text-items{
+    @include sections-text;
+    margin-bottom: 20px;
+    color: var(--color-text);
+    &:last-of-type {
+    margin-bottom: 80px;
+  }
+  @include media-tablet{
+      font-size: 1.4rem;
+      margin-bottom: 10px; 
+      &:last-of-type {
+        margin-bottom: 30px;
+      }
+
+  }
+}
+
+.girl__icons{
+    padding-bottom: 14px;
+}
+
+.girl__icons-title{
+    @include sections-text;
+    color: var(--color-main);
+}
+
+.girl__icons-text{
+    @include extra-small-text;
+    color: var(--color-secondary);
+}
+
+.girl__image{
+    @include media-tablet{
+        display: none;
+    }
+}
+

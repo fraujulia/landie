@@ -1,0 +1,62 @@
+.price{
+    text-align: center;
+    background-image: url(../../images/price-bg.svg);
+    padding-top: 237px;
+    padding-bottom: 172px;
+    @include media-tablet{
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+}
+
+.price__title{
+    @include title-main;
+   color: var(--color-main); 
+   padding-bottom: 16px;
+   @include media-tablet{
+       font-size: 3rem;
+   }
+}
+
+.price__text{
+    @include sections-text;
+    color: var(--color-text);
+   padding-bottom: 35px;
+}
+
+.price__amount-in-USD{
+    color: var(--color-price);
+    @include title-main;
+    @include media-tablet{
+        font-size: 3rem;
+    }
+}
+
+.sections-text{
+    @include sections-text;
+    color:var(--color-logo); 
+   padding-bottom: 60px;
+   @include media-phone{
+    padding-bottom: 30px;
+   }
+}
+
+.price__add-info{
+@include add-info-text;
+color:var(--color-secondary);
+padding-bottom: 9px;
+}
+
+.price__button{
+    min-width: 189px;
+    border-radius: 2px;
+    padding: 4px 0;
+    text-align: center;
+    border: 2px solid var(--color-buttons);
+    color: var(--color-buttons-text);
+    background-color: var(--color-buttons);
+    font-size: 1.4rem;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
